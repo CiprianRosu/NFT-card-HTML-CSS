@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.wrapper{
+    width:325px;
+    height:525px;
+    margin:225px auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 7px 7px 7px 7px;
+    padding-top:20px;
+}
+
+.image img{
+    width: 286px;
+    border-radius: 7px 7px 7px 7px;
+    margin: 0 auto;
+    object-fit: cover;
+    display: block;
+}
+.text{
+    width:285px;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:15px;
+    font-family:'Outfit', 'serif';
+}
+.text .txt1 {
+    font-weight: 600;
+    color:white;
+}
+.text .txt2{
+    margin-top:15px;
+    font-weight: 400;
+    color:hsl(215, 51%, 70%);
+}
+.days{
+    width:285px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: space-between;
+}
+.days .eth {
+    color: #4BFFFF;
+    font-family:'Outfit', 'serif';
+    display:flex;
+    justify-content: space-between;
+}
+.days  .day{
+    color:hsl(215, 51%, 70%);
+    font-family:'Outfit', 'serif';
+    display: inline;
+    display:flex;
+    justify-content: space-between;
+}
+.days .eth p{
+    margin-top: auto;
+}
+.days img {
+    object-fit: cover;
+    /* width:10%; */
+    z-index: 25;
+}
+hr{
+    
+    width:285px;
+    margin:0 auto;
+    border-top: 0px solid;
+}
+
+.profile{
+    margin-top: 15px;
+    margin-left: 20px;
+    display:flex;
+    justify-content: flex-start;
+    /* height:35px; */
+    
+    
+}
+.profile img {
+    width:35px;
+    border:1px solid white;
+    border-radius: 50%;
+    
+}
+.profile p {
+     margin-top: 7px;
+    font-family:'Outfit', 'serif';
+    color:hsl(215, 51%, 70%);
+}
+.profile p span {
+    color:white;
+}
